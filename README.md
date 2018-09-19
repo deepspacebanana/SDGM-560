@@ -41,4 +41,5 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 For the first week as we as a group decided on what the project would be and the kind of effect we are doing. Since we are dealing with 
 a transition effect where a car transforms from and old model into another I decided to do a quick prototype shader in UE4 that we could use as a Previs element in out pitch.
 
+![Shader](img/ShaderTest.gif)
 
