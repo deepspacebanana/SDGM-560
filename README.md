@@ -1,40 +1,4 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/deepspacebanana/SDGM-560/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/deepspacebanana/SDGM-560/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
 ## Week 1 - Transition Effect Prototype
 
@@ -42,4 +6,15 @@ For the first week as we as a group decided on what the project would be and the
 a transition effect where a car transforms from and old model into another I decided to do a quick prototype shader in UE4 that we could use as a Previs element in out pitch.
 
 ![Shader](img/ShaderTest.gif)
+
+The shader is essentially driven by a linear gradient generated from the Forward Vector of a Location Blueprint. The geometry is masked and swapped based on which side of the locator BP it is on.
+
+**Shader Nodes**
+![TestShader](img/prototypeshader.png)
+
+The Location of the Blueprint Actor is fed into the shader using a Material Parameter Collection fo Convenience.
+
+**BP Locator Setup**
+![LocatorBP](img/locatorBP.png)
+
 
