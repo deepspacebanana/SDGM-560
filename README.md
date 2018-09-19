@@ -1,6 +1,7 @@
 
 
-## Week 1 - Transition Effect Prototype
+# Taizyd Korambayil SDGM-560 Blog
+## Week 1 - Transition Effect Prototype _09/14/2018_
 
 For the first week as we as a group decided on what the project would be and the kind of effect we are doing. Since we are dealing with 
 a transition effect where a car transforms from and old model into another I decided to do a quick prototype shader in UE4 that we could use as a Previs element in out pitch.
