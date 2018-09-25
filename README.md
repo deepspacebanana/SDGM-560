@@ -33,6 +33,7 @@ For the final effect we intend to make use of Houdini's game sheld tools to bake
 This week I spent some time looking into the Game Shelf Tools in Houdini, specifically the **Pivot Painter SOP**. I used this tool to bake out seperate pivot locations for each poly on the surface of the car into the UV channels, and accessed them in unreal to create the dissappation effect. The limit with this effect is that it is dictated by the topology of the Mesh.
 
 **Test on Car Model**
+![ref05](img/cartest06.gif)
 ![ref05](img/cartest04.gif)
 ![ref05](img/cartest03.gif)
 
