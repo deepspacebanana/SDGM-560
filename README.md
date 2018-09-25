@@ -27,5 +27,37 @@ For the final effect we intend to make use of Houdini's game sheld tools to bake
 ![ref04](img/fxref_04.gif)
 ![ref05](img/fxref_05.gif) 
 ![ref05](img/fxref_06.gif)
+  
+## Week 2 - Pivot Painter R&D _09/25/2018_
+
+This week I spent some time looking into the Game Shelf Tools in Houdini, specifically the **Pivot Painter SOP**. I used this tool to bake out seperate pivot locations for each poly on the surface of the car into the UV channels, and accessed them in unreal to create the dissappation effect. The limit with this effect is that it is dictated by the topology of the Mesh.
+
+**Houdini Setup**
+Below you can see the setup I am using to bake pivot locations to each face, I scatter points at the center of each poly, and transfer a name attribute to the points that make up each primitve so it knows which scattered point to use as it's pivot. The Pivot Painter SOP then bakes these locations into additional UV channels of the mesh.
+
+**Network**
+![ref01](img/pivotpainter_network.png)
+![ref01](img/pivotpainter.png)
+
+**Setup in Unreal Engine**
+In Unreal I modified my Shader from last week to make use of the baked pivot locations to displace the polys based on the location of the blueprint to drive the Transition. There are Parameters to control Displacement Amt, Falloff and Effect Radius.<BR>
+
+Displacement Amt: 32
+![ref05](img/robertotopighead_02.gif)
+
+Displacement Amt: 512
+![ref05](img/robertotopighead.gif) 
+
+Shader Network:
+![ref01](img/pivotpaintershader.png)
+
+**Test on Car Model**
+![ref05](img/cartest.gif) 
+
+**Troubleshooting:**
+The Pivot Painter SOP sometimes still exports geometry with incorrect Pivot Locations and flipped faces, resulting in unclean geometry inside unreal.
+
+**Next Step:**
+The next step is to try and export pivot locations for each part of the car so that we can prototype the Disassmbly type effect that was suggested by Todd last week.
 
 
