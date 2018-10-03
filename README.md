@@ -71,7 +71,7 @@ This week I spent some trying to implement Todd's suggestion of having individua
 ![ref01](img/Render_V2.gif)
 ![ref01](img/Render_V3.gif)
 
-**Houdini Setup Update**
+# Houdini Setup Update
 I had modify my houdini setup to account for chunking and find a way to scatter the pivot location points at the center of each group.For now I am using spherical normals for the pivot direction, which is what casues all hte pieces to fly out in an outward spherical direction. Moving forward these will be grouped to work better gor how we want the effect to play out.
 Groups Visualized:
 ![ref01](img/groupsvisualized.png)
