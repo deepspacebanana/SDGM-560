@@ -147,6 +147,11 @@ Since a lot of my work this week had been trouble shooting, I needed to take abr
   
 ![ref01](img/TeleportGif.gif)<BR>
 
+**Car Schematic View**
+This was a test for aholographic schematic view of the car. The idea is to have the car transition into this schematic view before the pieces fly away to try and sell the original effect better.
+
+![ref01](img/schematicview.gif)<BR>
+  
 **Shader Network**
 
 ![ref01](img/teleshader.png)<BR>
