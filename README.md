@@ -136,6 +136,11 @@ The other problem was getting houdini to export the model with the Assigned Mate
 
 ![ref01](img/transferrednormalsfromexplodedmesh.png)<BR>
   
+**Car Schematic View**
+This was a test for aholographic schematic view of the car. The idea is to have the car transition into this schematic view before the pieces fly away to try and sell the original effect better.
+
+![ref01](img/schematicview.gif)<BR>
+  
 ## Transition Shader Variation
 
 Since a lot of my work this week had been trouble shooting, I needed to take abreak and work on something else, so I created a variaiton on the shader based transition effect.
@@ -146,7 +151,7 @@ Since a lot of my work this week had been trouble shooting, I needed to take abr
 ![ref01](img/shadergif3.gif)<BR>
   
 ![ref01](img/TeleportGif.gif)<BR>
-
+  
 **Shader Network**
 
 ![ref01](img/teleshader.png)<BR>
