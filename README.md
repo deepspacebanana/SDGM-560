@@ -114,5 +114,59 @@ Parameter List:<BR>
 4. Try Simple composition in Nuke with shaded Models from Haley and Brian.
 5. Implement feedback from this week.
 
+# Week 4 - Houdini Troubleshooting, Transition Variation _10/09/2018_
+
+This week has mostly been troubleshooting on my end, moving individual pieces by hand and transferring data from the processed mesh to the Final Shaded Mesh, is proving a little difficult as the Mesh Topology has changed on the actual mesh. So this may require a little bit of backtracking on my end, as well as redoing some of the tedious bits by hand.
+
+The other problem was getting houdini to export the model with the Assigned Material ID's, the obj format reads Material ID's into houdini but when exporting FBX the the Material ID's would not transfer, so that required a bit of wrangling.
+
+**Below I'm moving individual pieces by hand to get more deifned movement**<BR>
+
+![ref01](img/seperatepieces.png)<BR>
+
+**Pivot rotation based in location in space**<BR>
+
+![ref01](img/explodedpiecenormal.png)<BR>
+
+**Vex Code to set normal rotation based on location in space**
+
+![ref01](img/setnormalsbasedonlocationinspace.png)<BR>
+  
+**Pivot locations Transferred to pieces on base model**
+
+![ref01](img/transferrednormalsfromexplodedmesh.png)<BR>
+  
+## Transition Shader Variation
+
+Since a lot of my work this week had been trouble shooting, I needed to take abreak and work on something else, so I created a variaiton on the shader based transition effect.
+
+**Sequence Breakdown**
+![ref01](img/shadergif1.gif)<BR>
+![ref01](img/shadergif2.gif)<BR>
+![ref01](img/shadergif3.gif)<BR>
+  
+![ref01](img/TeleportGif.gif)<BR>
+
+**Shader Network**
+
+![ref01](img/teleshader.png)<BR>
+
+**Custom Function**
+
+![ref01](img/matrixnoisefunction.png)<BR>
+  
+# Next Steps
+1. Start Working on Look-Dev for the effect, more elements.
+2. Try some more variations on transition effect
+3. Try Simple composition in Nuke with shaded Models from Haley and Brian.
+4. Implement feedback from this week.
+  
+
+
+
+
+
+
+
 
  
