@@ -136,11 +136,6 @@ The other problem was getting houdini to export the model with the Assigned Mate
 
 ![ref01](img/transferrednormalsfromexplodedmesh.png)<BR>
   
-**Car Schematic View**
-This was a test for aholographic schematic view of the car. The idea is to have the car transition into this schematic view before the pieces fly away to try and sell the original effect better.
-
-![ref01](img/schematicview.gif)<BR>
-  
 ## Transition Shader Variation
 
 Since a lot of my work this week had been trouble shooting, I needed to take abreak and work on something else, so I created a variaiton on the shader based transition effect.
@@ -151,6 +146,11 @@ Since a lot of my work this week had been trouble shooting, I needed to take abr
 ![ref01](img/shadergif3.gif)<BR>
   
 ![ref01](img/TeleportGif.gif)<BR>
+
+**Car Schematic View**
+This was a test for aholographic schematic view of the car. The idea is to have the car transition into this schematic view before the pieces fly away to try and sell the original effect better.
+
+![ref01](img/schematicview.gif)<BR>
   
 **Shader Network**
 
@@ -165,6 +165,28 @@ Since a lot of my work this week had been trouble shooting, I needed to take abr
 2. Try some more variations on transition effect
 3. Try Simple composition in Nuke with shaded Models from Haley and Brian.
 4. Implement feedback from this week.
+
+# Week 5 - Testing on shaded models, Variation _10/09/2018_
+
+For this week, I converted the shaders into Functions and added it to all the car shaders in our project. To see the effect on the shaded models.
+
+![ref01](img/TeleportShaded.gif)<BR>
+  
+I also tried another variation for the transition effect using pivot painter and curl noise in the shader to drive the motion.
+Below you can see the test on the UE4 mannequin:
+
+![ref01](img/V6.gif)![ref01](img/V7.gif)<BR>
+  
+And below the shader modified to work as a transition effect<BR>
+
+![ref01](img/Thanos_01.gif)
+![ref01](img/Thanos_02.gif)
+
+# To do for Next week:
+1. Help Brian with bringing in car animations to UE4
+2. Test Animated car comp with Fx
+3. Switch Hailey's car to use Material Instances
+4. Feedback from this week
   
 
 
