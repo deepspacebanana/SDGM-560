@@ -187,6 +187,25 @@ And below the shader modified to work as a transition effect<BR>
 2. Test Animated car comp with Fx
 3. Switch Hailey's car to use Material Instances
 4. Feedback from this week
+
+# Week 6 - Testing FX with Animated Shot, LookDev on FX _10/09/2018_
+
+This week after the feedback from the mentor's, the primary goal for all the teams was to start putting together the shots, and keep showing progress on the mfor the rest of the quarter. So we did the same, I made a rough pass of the FX in the Animated shot, I still need to work on the Timing and Keyframing of the FX transitions. We also, ran into some challenges with the Camera Animation for this particular shot as the Camera Pan would desync, when we tried to render out the Frames from the Engine.
+
+**Fx Sequence**<BR>
+![ref01](img/fxsequencing.gif)
+  
+**Rough keyframed Shot**<BR>
+![ref01](img/ShotTest.gif)
+
+## Hologram Shader Setup:
+As I had alluded to last week, we decided to ahve the cat transform into a hologram before it transformed into the other car, jsut to sell the effect better. Below you will find the shader setup for the Hologram.
+
+![ref01](img/hologramcellnoise.png)<BR>
+![ref01](img/HologramPointCloud.png)<BR>
+![ref01](img/FullHologram.png)
+
+
   
 
 
