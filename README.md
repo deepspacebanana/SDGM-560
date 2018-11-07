@@ -204,6 +204,34 @@ As I had alluded to last week, we decided to ahve the cat transform into a holog
 ![ref01](img/hologramcellnoise.png)<BR>
 ![ref01](img/HologramPointCloud.png)<BR>
 ![ref01](img/FullHologram.png)
+  
+# Week 8 - Glitch FX for Shot 1, Creating FX Pass Pipeline, Keyframing Shot 02 _10/09/2018_
+
+This week I spent some time making a glitch FX for shot 01. The group felt that we needed some sort of anticipation in Shot 01 before the full transition happened in shot 02. For this we referened the glitch-teleport effect in **Wreck-it Ralph** where the character Vanellope would occassionally glitch out and teleport around.
+
+![ref01](img/vanellope.gif)<BR>
+
+**Our implementation in shot 1**
+![ref01](img/Shot_01_FX_Test.gif)<BR>
+
+## Shader Details:
+
+![ref01](img/glitchoffset.png)<BR>
+
+  
+We also put together an FX Pass, so that the FX could be comped on seperately from the beauty render.
+
+**FX Pass shot 02**
+![ref01](img/Level_Animation_Shot4_FXPass_Fixed_V2.gif)<BR>
+
+**Beauty Render 02**
+![ref01](img/Level_Animation_Shot4_BeautyPass_Fixed_V2.gif)<BR>
+  
+**To Do:**
+Figure out a way to render a FX lighting pass.
+
+
+
 
 
   
